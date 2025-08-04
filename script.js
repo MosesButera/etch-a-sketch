@@ -9,3 +9,5 @@ function createContainerDivs () {
         container.appendChild(gridDivItem);
     }
 }
+
+createContainerDivs();
