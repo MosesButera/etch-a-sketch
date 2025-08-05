@@ -50,6 +50,8 @@ const createNewGridButton = document.querySelector("button");
 function userInputDynamicGrid(){
     
     const userGridSizes = prompt("Please enter grid square dimensions i.e. Whole number greater than 0 and less than 100 e.g 16");
+    userGrid = Math.floor(userGridSizes);
+
  
 }
 
