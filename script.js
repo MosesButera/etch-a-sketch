@@ -44,3 +44,5 @@ function removeAllElementChildren(){
         container.removeChild(container.firstChild);
     };
 }
+
+const createNewGridButton = document.querySelector("button");
