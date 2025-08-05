@@ -61,6 +61,6 @@ function userInputDynamicGrid(){
     removeAllElementChildren();
     createContainerDivs (userGrid);
     hover ();
- 
 }
 
+createNewGridButton.addEventListener("click", userInputDynamicGrid);
