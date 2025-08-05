@@ -60,7 +60,7 @@ function userInputDynamicGrid(){
 
     removeAllElementChildren();
     createContainerDivs (userGrid);
-    
+    hover ();
  
 }
 
