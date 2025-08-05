@@ -3,16 +3,22 @@
 let container = document.querySelector(".container");
 const gridDivSize = 16;
 
-function createContainerDivs () {
+function createContainerDivs (gridDivSize) {
     for (let i = 0; i < gridDivSize * gridDivSize; i++){
         const gridDivItem = document.createElement("div");
         gridDivItem.classList.add("dynamic-div-item");
-        // gridDivItem.textContent = i + 1;
+        gridDivItem.style.width = `${100 / gridDivSize}%`;
+        gridDivItem.style.height= `${100 / gridDivSize}%`;
+        gridDivItem.style.border = "1px solid lightgrey";
+        gridDivItem.style.display = "flex";
+        gridDivItem.style.justifyContent = "center";
+        gridDivItem.style.alignItems = "center";
+        gridDivItem.style.fontSize = "1.2em";
         container.appendChild(gridDivItem);
     }
 }
 
-createContainerDivs();
+createContainerDivs(gridDivSize);
 
 function random(number) {
     return Math.floor(Math.random() * (number + 1));
@@ -32,4 +38,5 @@ function hover(){
 }
 
 hover();
+
 
