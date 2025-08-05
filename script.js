@@ -52,6 +52,13 @@ function userInputDynamicGrid(){
     const userGridSizes = prompt("Please enter grid square dimensions i.e. Whole number greater than 0 and less than 100 e.g 16");
     userGrid = Math.floor(userGridSizes);
 
+    if (userGrid > 100){
+        alert("Please enter grid size less or equal to 100");
+    } else if(userGrid === null){
+        alert("User cancelled!");
+    }
+
+
  
 }
 
