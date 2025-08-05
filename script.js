@@ -23,7 +23,7 @@ function bgChange(e) {
     e.target.style.backgroundColor = rndCols;
     console.log(e);
   }
-  
+
 function hover(){
     const createdDynamicDiv = document.querySelectorAll(".dynamic-div-item");
     createdDynamicDiv.forEach(element => {
@@ -31,5 +31,5 @@ function hover(){
     });
 }
 
-
+hover();
 
