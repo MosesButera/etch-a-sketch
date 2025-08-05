@@ -58,7 +58,8 @@ function userInputDynamicGrid(){
         alert("User cancelled!");
     }
 
-
+    removeAllElementChildren();
+    
  
 }
 
