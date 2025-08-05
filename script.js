@@ -18,6 +18,12 @@ function random(number) {
     return Math.floor(Math.random() * (number + 1));
 }
 
+function bgChange(e) {
+    const rndCols = `rgb(${random(255)} ${random(255)} ${random(255)})`;
+    e.target.style.backgroundColor = rndCols;
+    console.log(e);
+  }
+  
 function hover(){
     const createdDynamicDiv = document.querySelectorAll(".dynamic-div-item");
     createdDynamicDiv.forEach(element => {
