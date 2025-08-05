@@ -18,6 +18,12 @@ function random(number) {
     return Math.floor(Math.random() * (number + 1));
 }
 
+function hover(){
+    const createdDynamicDiv = document.querySelectorAll(".dynamic-div-item");
+    createdDynamicDiv.forEach(element => {
+        element.addEventListener("mouseover", bgChange);
+    });
+}
 
 
 
