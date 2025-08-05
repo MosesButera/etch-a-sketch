@@ -39,4 +39,8 @@ function hover(){
 
 hover();
 
-
+function removeAllElementChildren(){
+    while (container.firstChild){
+        container.removeChild(container.firstChild);
+    };
+}
