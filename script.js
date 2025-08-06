@@ -67,3 +67,4 @@ function userInputDynamicGrid(){
 createNewGridButton.addEventListener("click", userInputDynamicGrid);
 
 const allCreatedDivs = document.querySelectorAll(".dynamic-div-item");
+const clearGridButton = document.querySelector(".Clear");
