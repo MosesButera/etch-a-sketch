@@ -41,3 +41,11 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 5px 15px #942828;
 }
+
+.clickBtn{
+  margin-bottom: auto;
+}
+
+.clear-and-knob-btn{
+  margin-top: auto;
+}
