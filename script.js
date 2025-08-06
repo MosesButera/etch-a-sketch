@@ -63,4 +63,7 @@ function userInputDynamicGrid(){
     hover ();
 }
 
+
 createNewGridButton.addEventListener("click", userInputDynamicGrid);
+
+const allCreatedDivs = document.querySelectorAll(".dynamic-div-item");
