@@ -74,3 +74,5 @@ function clrHover(){
         element.style.backgroundColor = "";
     });
 }
+
+clearGridButton.addEventListener("click", clrHover);
