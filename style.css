@@ -50,6 +50,10 @@ body {
   border-radius: 10px;
 }
 
+.clickBtn:hover {
+  background-color: #0b4c8e;
+}
+
 .clear-and-knob-btn{
   margin-top: auto;
 }
