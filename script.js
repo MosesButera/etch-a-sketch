@@ -68,3 +68,9 @@ createNewGridButton.addEventListener("click", userInputDynamicGrid);
 
 const allCreatedDivs = document.querySelectorAll(".dynamic-div-item");
 const clearGridButton = document.querySelector(".Clear");
+
+function clrHover(){
+    allCreatedDivs.forEach(element => {
+        element.style.backgroundColor = "";
+    });
+}
