@@ -73,5 +73,7 @@ body {
   margin-top: 25px;
 }
 
-
+.clear-btn:hover {
+  background-color: #37474f;
+}
 
