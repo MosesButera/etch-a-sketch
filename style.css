@@ -77,3 +77,12 @@ body {
   background-color: #37474f;
 }
 
+.knobs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 30px;
+  border-radius: 15px;
+}
+
