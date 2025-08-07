@@ -62,4 +62,16 @@ body {
   font-size: 1.8rem;
 }
 
+.clear-btn{
+  background-color: #263238;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+
 
