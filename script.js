@@ -9,7 +9,7 @@ function createContainerDivs (gridDivSize) {
         gridDivItem.classList.add("dynamic-div-item");
         gridDivItem.style.width = `${100 / gridDivSize}%`;
         gridDivItem.style.height= `${100 / gridDivSize}%`;
-        gridDivItem.style.border = "1px solid lightgrey";
+        gridDivItem.style.border = "1px solid black";
         gridDivItem.style.display = "flex";
         gridDivItem.style.justifyContent = "center";
         gridDivItem.style.alignItems = "center";
@@ -66,7 +66,7 @@ function userInputDynamicGrid(){
 
 createNewGridButton.addEventListener("click", userInputDynamicGrid);
 
-const clearGridButton = document.querySelector(".Clear");
+const clearGridButton = document.querySelector(".clear-btn");
 
 function clrHover(){
     const allCreatedDivs = document.querySelectorAll(".dynamic-div-item");
